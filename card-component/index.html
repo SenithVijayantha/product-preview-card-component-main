@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="../src/output.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-slate-300 font-poppins grid place-items-center h-screen">
+  <div class=" container md:h-max m-4 w-[80%] max-w-sm bg-white rounded-xl grid gap-6 md:grid-cols-2 md:max-w-2xl pb-6 md:pb-0">
+    <div class="overflow-hidden rounded-t-xl md:rounded-l-xl cursor-pointer">
+      <img src="images/image-product-mobile.jpg" alt="" class="rounded-t-xl md:hidden sm:block hover:scale-110  hover:rounded-xl transition-transform duration-300 ease-in-out">
+      <img src="images/image-product-desktop.jpg" alt="" class="md:rounded-l-xl hidden md:block hover:scale-110 hover:rounded-xl transition-transform duration-300 ease-in-out">
+    </div>
+    <div class="grid mx-6 gap-5  md:gap-0 md:mx-0 md:mr-6 md:py-10">
+      <p class="uppercase tracking-[0.5rem] text-slate-600">Perfume</p>
+      <h1 class="font-merriweather font-bold text-3xl md:w-9/12">Gabrielle Essence Eau De Parfum</h1>
+      <p class="text-slate-600">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+        Perfumer-Creator for the House of CHANEL.</p>
+      <div class="flex items-center">
+        <p class="text-green-700 text-3xl font-merriweather font-extrabold mr-5">$149.99</p>
+        <p class="text-slate-600 line-through">$169.99</p>
+      </div>
+      <button class="bg-green-700 hover:bg-green-950 text-white flex items-center justify-center px-5 py-4 rounded-xl md:py-1 md:mt-6 transition-colors duration-300 ease-in-out">
+        <img src="images/icon-cart.svg" alt="" class="mr-4">
+        <p class="font-semibold">Add to Cart</p>
+      </button>
+    </div>
+  </div>
+
+  <!-- Perfume
+
+  Gabrielle Essence Eau De Parfum
+
+  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+  Perfumer-Creator for the House of CHANEL.
+
+  $149.99
+  $169.99
+
+  Add to Cart -->
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://social-contact-card.netlify.app" target="_blank">Senith Vijayantha</a>.
+  </div>
+</body>
+</html>
