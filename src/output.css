@@ -840,6 +840,10 @@ video {
     border-bottom-left-radius: 0.75rem;
   }
 
+  .md\:rounded-tr-none{
+    border-top-right-radius: 0px;
+  }
+
   .md\:py-1{
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
